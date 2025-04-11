@@ -1,0 +1,13 @@
+prefix=E:/Learning/Krish/Projects/KrishMLProject/venv/Library
+exec_prefix=E:/Learning/Krish/Projects/KrishMLProject/venv/Library
+libdir=E:/Learning/Krish/Projects/KrishMLProject/venv/Library/lib
+sharedlibdir=E:/Learning/Krish/Projects/KrishMLProject/venv/Library/lib
+includedir=E:/Learning/Krish/Projects/KrishMLProject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
